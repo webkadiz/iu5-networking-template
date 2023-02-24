@@ -1,9 +1,4 @@
-import {
-    belongsTo,
-    createServer,
-    hasMany,
-    Model,
-} from 'miragejs';
+import { belongsTo, createServer, hasMany, Model } from 'miragejs';
 
 export function makeServer({ environment = 'test' } = {}) {
     let server = createServer({

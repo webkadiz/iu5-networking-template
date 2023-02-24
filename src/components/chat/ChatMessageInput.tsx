@@ -7,7 +7,7 @@ import React, {
 
 import { fadeInRight } from 'react-animations';
 import { useQueryClient } from 'react-query';
-import {toast} from 'react-toastify'
+import { toast } from 'react-toastify';
 
 import { keyframes } from '@emotion/react';
 import styled from '@emotion/styled';
@@ -49,7 +49,7 @@ const ChatMessageInput = () => {
 
             setMessageValue('');
         } catch (err) {
-            toast.error(`${err}`)
+            toast.error(`${err}`);
         }
     };
 

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 import { useQuery, UseQueryOptions } from 'react-query';
-import {toast} from 'react-toastify'
+import { toast } from 'react-toastify';
 
 type Props<T> = {
     queryKey: string;
@@ -21,10 +21,14 @@ const FetchWrapper = <T,>({
     emptyEl = null,
     queryOptions,
 }: Props<T>) => {
-    const { isFetching, error, data } = useQuery(queryKey, fetchFn, queryOptions);
+    const { isFetching, error, data } = useQuery(
+        queryKey,
+        fetchFn,
+        queryOptions
+    );
 
     useEffect(() => {
-        if (!isFetching && error) toast.error(`${error}`)
+        if (!isFetching && error) toast.error(`${error}`);
     }, [isFetching]);
 
     return data ? <Render data={data} isFetching={isFetching} /> : emptyEl;

@@ -1,8 +1,5 @@
-import React from 'react'
-import {
-    QueryClient,
-    QueryClientProvider,
-} from 'react-query';
+import React from 'react';
+import { QueryClient, QueryClientProvider } from 'react-query';
 import { Provider } from 'react-redux';
 
 import Root from './components/common/Root';

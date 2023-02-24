@@ -1,14 +1,6 @@
-import React, {
-    useContext,
-    useEffect,
-} from 'react';
+import React, { useContext, useEffect } from 'react';
 
-import {
-    Avatar,
-    List,
-    ListItemAvatar,
-    ListItemButton,
-} from '@mui/material';
+import { Avatar, List, ListItemAvatar, ListItemButton } from '@mui/material';
 
 import { Chat } from '../../api/generated';
 import { ActiveChatContext } from '../../context/active-chat';

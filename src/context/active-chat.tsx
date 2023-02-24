@@ -1,9 +1,4 @@
-import React, {
-    Dispatch,
-    ReactNode,
-    SetStateAction,
-    useState,
-} from 'react';
+import React, { Dispatch, ReactNode, SetStateAction, useState } from 'react';
 
 import { Chat } from '../api/generated';
 

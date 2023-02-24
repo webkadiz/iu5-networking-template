@@ -1,10 +1,7 @@
-import React from 'react'
+import React from 'react';
 import styled from '@emotion/styled';
 
-import {
-    Chat,
-    ChatService,
-} from '../../api/generated';
+import { Chat, ChatService } from '../../api/generated';
 import FetchWrapper from '../common/FetchWrapper';
 import ChatList from './ChatList';
 
