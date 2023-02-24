@@ -1,6 +1,6 @@
 openapi: 3.0.3
 info:
-    title: Swagger IU5 Networking CW - OpenAPI 3.0
+    title: Swagger IU5 Networking Template - OpenAPI 3.0
     license:
         name: Apache 2.0
         url: http://www.apache.org/licenses/LICENSE-2.0.html
